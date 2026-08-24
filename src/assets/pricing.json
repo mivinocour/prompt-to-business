@@ -1,0 +1,112 @@
+{
+    "gemini-2.5-flash-preview": {
+      "unit": "per 1M tokens",
+      "input_price_usd": {
+        "text_image_video": 0.15,
+        "audio": 1.00
+      },
+      "output_price_usd": {
+        "non_thinking": 0.60,
+        "thinking": 3.50
+      }
+    },
+     "gemini-2.5-flash-preview-tts": {
+      "unit": "per 1M tokens",
+      "input_price_usd": 0.50,
+      "output_price_usd": 10.00
+    },
+    "gemini-2.5-pro-preview": {
+      "unit": "per 1M tokens",
+      "input_price_usd": {
+        "prompts_<=_200k_tokens": 1.25,
+        "prompts_>_200k_tokens": 2.50
+      },
+      "output_price_usd": {
+        "prompts_<=_200k_tokens": 10.00,
+        "prompts_>_200k_tokens": 15.00
+      }
+    },
+      "gemini-2.5-pro-preview-tts": {
+      "unit": "per 1M tokens",
+      "input_price_usd": 1.00,
+      "output_price_usd": 20.00
+    },
+    "gemini-2.5-flash-native-audio": {
+      "unit": "per 1M tokens",
+      "input_price_usd": {
+        "text": 0.50,
+        "audio_video": 3.00
+      },
+      "output_price_usd": {
+        "text": 2.00,
+        "audio": 12.00
+      }
+    },
+    "gemini-2.0-flash": {
+      "unit": "per 1M tokens",
+      "input_price_usd": {
+        "text_image_video": 0.10,
+        "audio": 0.70
+      },
+      "output_price_usd": 0.40,
+       "image_generation_price_usd": {
+          "unit": "per image",
+          "price": 0.039
+       }
+    },
+    "gemini-2.0-flash-lite": {
+      "unit": "per 1M tokens",
+      "input_price_usd": 0.075,
+      "output_price_usd": 0.30
+    },
+    "imagen-3": {
+      "unit": "per image",
+      "image_price_usd": 0.03
+    },
+    "veo-2": {
+      "unit": "per second",
+      "video_price_usd": 0.35
+    },
+    "gemma-3": {
+      "paid_tier_pricing": "Not available"
+    },
+    "gemma-3n": {
+      "paid_tier_pricing": "Not available"
+    },
+    "gemini-1.5-flash": {
+      "unit": "per 1M tokens",
+      "input_price_usd": {
+        "prompts_<=_128k_tokens": 0.075,
+        "prompts_>_128k_tokens": 0.15
+      },
+      "output_price_usd": {
+        "prompts_<=_128k_tokens": 0.30,
+        "prompts_>_128k_tokens": 0.60
+      }
+    },
+    "gemini-1.5-flash-8b": {
+      "unit": "per 1M tokens",
+      "input_price_usd": {
+        "prompts_<=_128k_tokens": 0.0375,
+        "prompts_>_128k_tokens": 0.075
+      },
+      "output_price_usd": {
+        "prompts_<=_128k_tokens": 0.15,
+        "prompts_>_128k_tokens": 0.30
+      }
+    },
+    "gemini-1.5-pro": {
+      "unit": "per 1M tokens",
+      "input_price_usd": {
+        "prompts_<=_128k_tokens": 1.25,
+        "prompts_>_128k_tokens": 2.50
+      },
+      "output_price_usd": {
+        "prompts_<=_128k_tokens": 5.00,
+        "prompts_>_128k_tokens": 10.00
+      }
+    },
+    "text-embedding-004": {
+      "paid_tier_pricing": "Not available"
+    }
+  }
